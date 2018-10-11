@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void){
+  char moji[20],*pmoji;
+
+  printf("10文字程度の英数字の文字列を入力してください（スペースなしで）\n");
+  scanf("%s",moji);
+  pmoji = moji;
+
+
+  int mojisize = strlen(moji);
+  for(int i = 0;i<mojisize;i++){
+      printf("%s",&moji[i]);
+    printf("\n");
+  }
+
+  return 0;
+}
