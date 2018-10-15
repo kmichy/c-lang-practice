@@ -14,27 +14,46 @@ int main(void){
     // printf("%s",str);
     char *ptr;
 
+
     int *p;
     p = a;
     ptr = strtok(str," ,");
     *p = atoi(ptr);
-    printf("%d\n",*p);
+    // printf("%d\n",*p);
 
     while(ptr != NULL){
         ptr = strtok(NULL, ", \n");
 
         if(ptr != NULL ){
+            p++;
             *p = atoi(ptr);
-            printf("%d\n",*p);
+            // printf("%d\n",*p);
         }
     }
 
     for(i = 0;i<n;i++){
         people += a[i];
     }
+    int bridge = 0;
     if(people % n != 0){
         printf("-1\n");
     }else{
-        int sum = people / n;
+        int tmp = 0;
+        int num = people / n;
+        for(i = 0;i<n;i++){
+            if(a[i] > num){
+                tmp += a[i] - num;
+            }else if(a[i] < num){
+                tmp += a[i] - num;
+            }
+            if(tmp != 0){
+                bridge++;
+            }
+            // printf("%d\n",a[i]);
+            // printf("%d\n",bridge);
+        }
+        printf("%d\n",bridge);
     }
+
+    return 0;
 }
