@@ -1,0 +1,57 @@
+chokudai
+c>r r>c
+rhokudai
+h>e e>h
+reokudai
+o>d d>o
+redkuoai
+k>c c>k
+redcuoai
+u>o o>u
+redcouai
+u>d d>u
+reucodai
+a>e e>a
+raucodei
+i>r r>i
+iaucoder
+redcoder
+
+abcdefghijklmnopqrstuvwxyz
+ibyhqfrekavclxjstdwgpzmomu
+a>i
+ibcdefghajklmnopqrstuvwxyz
+/       /
+c>y
+ibydefghajklmnopqrstuvwxcz
+  /                     /
+d>h
+ibyhefgdajklmnopqrstuvwxcz
+   /   /
+e>q
+ibyhqfgdajklmnoperstuvwxcz
+    /           /
+g>r
+ibyhqfrdajklmnopegstuvwxcz
+      /          /
+d>e
+ibyhqfreajklmnopdgstuvwxcz
+       /        /
+a>k
+ibyhqfrekjalmnopdgstuvwxcz
+j>a
+ibyhqfrekajlmnopdgstuvwxcz
+j>v
+ibyhqfrekavlmnopdgstujwxcz
+l>c
+ibyhqfrekavcmnopdgstujwxlz
+m>l
+ibyhqfrekavclnopdgstujwxmz
+n>x
+ibyhqfrekavclxopdgstujwnmz
+o>j
+ibyhqfrekavclxjpdgstuownmz
+p>s
+ibyhqfrekavclxjsdgptuownmz
+
+ibyhqfrekavclxjstdwgpzmomu
