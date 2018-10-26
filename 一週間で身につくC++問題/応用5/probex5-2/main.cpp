@@ -1,6 +1,7 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 #include <regex>
+#include <cstdlib>
 
 using namespace std;
 
@@ -19,14 +20,22 @@ int main(){
     number[9] = "九";
     string tmp;
     cin >> tmp;
+    cout << endl;
     regex num("^[0-9]+$");
     if(regex_search(tmp,num)){
         cout << "変換結果:";
-        ///////////////////実装途中///////////////////////
-        cout << number[tmp[i]];
+        int len = tmp.length();
+        int i;
+        for(i = 0; i<len; i++){
+            if(len % 3 == i % 3 && i != 0){
+                cout << ",";
+            }
+            cout << number[tmp[i] - '0'];
+            // cout << number[i];
+        }
     }else{
         cout << "整数の値を入力してください。";
     }
-
+    cout << endl;
     return 0;
 }
